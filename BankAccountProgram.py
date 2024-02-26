@@ -8,7 +8,7 @@ def main():
    start_bal = float(input('Enter your starting balance: '))
 
    # Create a BankAccount object.
-   savings = bc.BankAccount(start_bal)
+   savings = bc.BankAccount(start_bal) #this creates the instance
 
    # Deposit the user's paycheck.
    pay = float(input('How much were you paid this week? '))
@@ -29,7 +29,7 @@ def main():
         format(savings.get_balance(), ',.2f'),
         sep='')
 
-   print(savings)
+   #print(savings)
 
 # Call the main function.
 main()
