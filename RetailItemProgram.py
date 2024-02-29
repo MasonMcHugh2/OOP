@@ -25,10 +25,10 @@ def main():
 
     print(f"{Space} {'Description':12} {'Units in inventory':18} {'Price':6}")
     print()
-    print(f"{'Item 1:':10} {O1_n:12} {O1_i:18} {O1_p:6}")
+    print(f"{'Item 1:':10} {O1_n:12} {O1_i:18} ${O1_p:6}")
     print()
-    print(f"{'Item 2:':10} {O2_n:12} {O2_i:18} {O2_p:6}")
+    print(f"{'Item 2:':10} {O2_n:12} {O2_i:18} ${O2_p:6}")
     print()
-    print(f"{'Item 3:':10} {O3_n:12} {O3_i:18} {O3_p:6}")
+    print(f"{'Item 3:':10} {O3_n:12} {O3_i:18} ${O3_p:6}")
 
 main()    
